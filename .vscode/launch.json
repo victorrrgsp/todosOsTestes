@@ -1,0 +1,167 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Application.Program"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Atividade Poli"
+        },
+        {
+            "type": "java",
+            "name": "Program(1)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Atividade de fixa poli"
+        },
+        {
+            "type": "java",
+            "name": "Program(2)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Atividade de fixação.Enum"
+        },
+        {
+            "type": "java",
+            "name": "Program(3)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Atividade de matriz"
+        },
+        {
+            "type": "java",
+            "name": "Program(4)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Checklist"
+        },
+        {
+            "type": "java",
+            "name": "Program(5)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Heranca"
+        },
+        {
+            "type": "java",
+            "name": "Program(6)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Matriz"
+        },
+        {
+            "type": "java",
+            "name": "Program(7)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "StringBuider"
+        },
+        {
+            "type": "java",
+            "name": "Program(8)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Top12"
+        },
+        {
+            "type": "java",
+            "name": "Prog",
+            "request": "launch",
+            "mainClass": "Appli.Prog",
+            "projectName": "Top"
+        },
+        {
+            "type": "java",
+            "name": "Program(9)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Trabalho"
+        },
+        {
+            "type": "java",
+            "name": "Program(10)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "Unboxing"
+        },
+        {
+            "type": "java",
+            "name": "alto",
+            "request": "launch",
+            "mainClass": "Application.alto",
+            "projectName": "alturas"
+        },
+        {
+            "type": "java",
+            "name": "Program(11)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "atividade de lista"
+        },
+        {
+            "type": "java",
+            "name": "Cdt",
+            "request": "launch",
+            "mainClass": "Application.Cdt",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Program(12)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Programm",
+            "request": "launch",
+            "mainClass": "Application.Programm",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Program(13)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "mengo"
+        },
+        {
+            "type": "java",
+            "name": "Program(14)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "pensionato"
+        },
+        {
+            "type": "java",
+            "name": "Programation",
+            "request": "launch",
+            "mainClass": "Aplication.Programation",
+            "projectName": "sei la2"
+        },
+        {
+            "type": "java",
+            "name": "Program(15)",
+            "request": "launch",
+            "mainClass": "Application.Program",
+            "projectName": "sei la"
+        }
+    ]
+}
