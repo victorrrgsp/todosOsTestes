@@ -10,7 +10,7 @@ public class Program {
 
 		method1();
 		System.out.println("End of ptogram");
-		
+
 	}
 
 	public static void method1 () {
@@ -18,9 +18,9 @@ public class Program {
 		method2();
 		System.out.println("*** METHOD1 END ***");
 	}
-	
+
 	public static void method2 () {
-		
+
 		System.out.println("*** METHOD2 START ***");
 		// pode ler arquivos e nao somente do console
 		Scanner sc = new Scanner(System.in);
