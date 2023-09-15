@@ -1,24 +1,27 @@
 package application;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class Program {
 
 	public static void main(String[] args) {
 		
-		String path = "c:\\temp\\in.txt";
+		// criando um vertor com tres valores nele 
+		String[] lines = new String[]{ "Good morning", "Good afternoon", "Good night" };
 		
-		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-			// o readLine vai ler uma linha do meu arquivo, se o arquivo esteve no final, ele ira retornar null
-			String line = br.readLine();
-			while (line != null){
-				System.out.println("");
-				line = br.readLine();
+		// está informando qual o caminho do arquivo
+		String path = "c:\\temp\\out.txt";
+
+		// o paremetro true indica que o usuario n quer recriar o arquivo, alem de acrescentar em relação ao que já tinha no arquivo
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
+			for (String line : lines){
+				bw.write(line);
+				bw.newLine();
 			}
-		} catch (IOException e) {
-			System.out.println("Error: " + e.getMessage());
+		} catch (IOException e){
+			e.printStackTrace();
 		}
 	}
 }

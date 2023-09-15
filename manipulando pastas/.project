@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Trabalhando com ARQ2</name>
+	<name>manipulando pastas</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1694637226980</id>
+			<id>1694638113304</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
